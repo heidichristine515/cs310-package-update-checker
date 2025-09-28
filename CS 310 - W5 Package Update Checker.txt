@@ -1,0 +1,12 @@
+CS 310 - W5 Package Update Checker
+By Heidi Blank
+
+How did you get the list of packages?
+- I used the apt command "list --upgradable" to get the list of packages.
+
+What is the crontab sequence to run the script?
+- The crontab sequence is 0 0 * * 1 to run the cron jobs weekly.
+
+Since this script would require root, how do you install a crontab for root?
+- I used the keyword 'sudo' in front of crontab commands in order to use root
+when installing cron jobs.
